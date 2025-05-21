@@ -1,1 +1,5 @@
-# Sentiment-Analysis-of-Gujarati-News-
+# Sentiment-Analysis-of-Gujarati-News
+
+Sentiment Analysis of Gujarati News is a machine learning project that classifies Gujarati news articles into three sentiment categories: positive, negative, and neutral. The project utilizes a dataset containing translated Gujarati news text and labeled sentiments to train and evaluate two different models: Naive Bayes (MultinomialNB) and XGBoost (XGBClassifier). The text data is first converted into numerical features using TF-IDF Vectorization, which is then used to train both models. The performance of each model is measured using classification reports, allowing for comparison between the two approaches.
+
+The project also includes a feature where users can input a new piece of Gujarati news and get a real-time sentiment prediction using the trained model. This makes the tool interactive and practical for analyzing the tone of unseen news content. The script is designed to be simple and beginner-friendly, making it easy to understand and extend. It’s an ideal starting point for exploring natural language processing (NLP) and sentiment analysis in regional languages like Gujarati.
